@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="prelaod" as="image" href="./assets/images/hero-banner.jpg">
+    <link rel="preload" as="image" href="./assets/images/Blog.svg">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfolio 1</title>
+</head>
+<body>
+    <header class="header active">
+        <div class="container">
+            <a href="" class="logo">
+                <img src="./assets/images/logo-dark.svg" alt="">
+            </a>
+            <nav class="navbar " data-navbar>
+                <div class="navbar-top">
+                    <a href="" class="logo">
+                        <img src="./assets/images/logo-light.svg" alt="">
+                    </a>
+                    <button class="nav-close-btn">
+                        <ion-icon name="close-outline" aria-hidden="true" data-nav-toggler></ion-icon>
+                    </button>
+                </div>
+                
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#" class="navbar-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="wrapper">
+                    <a class="contact-link" href="mailto:mohammed.alez@yahoo.com">someOne@gmail.com</a>
+                    <a class="contact-link" href="tel:+0658005590">0658005590</a>
+                </div>
+                <ul class="social-list">
+                    <li>
+                        <a href="" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-link">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-link">
+                            <ion-icon name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="social-link">
+                            <ion-icon name="logo-dribbble"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+    
+            <div class="overlay " data-nav-toggler data-overlay></div>
+        </div>
+    </header>
+
+
+    <main>
+        <article>
+
+            <section class="section hero" aria-label="home">
+                <div class="container">
+                    
+                    <figure class="hero-banner">
+                        <img src="./assets/images/hero-banner.jpg" alt="julia" class="w-100" data-reveal="top" width="560" height="540" >
+                        <img src="./assets/images/hero-shape.svg" alt="250+ Projects Done" data-reveal="top" class="shape" width="203" height="91" data-revealdelay="1s"  >
+                    </figure>
+                    <div class="hero-content">
+                        <h1 class="h1 hero-title" data-reveal="top" data-revealdelay="0.5s">
+                            I'm User Interface Designer & Developer.
+                        </h1>
+                        <p class="section-text" data-reveal="top" data-revealdelay="0.75s">
+                            Hello! I'm Julia, a freelance user interface designer & developer based in 
+                            London. I’m very passionate 
+                            about the work that I do.
+                        </p>
+                        <div class="btn-wrapper" data-reveal="top" data-revealdelay="1s">
+                            <a href="#" class="btn btn-primary">See My Works</a>
+                        
+                            <a href="#" class="btn btn-secondary">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section info">
+                <div class="container">
+                    <div class="top">
+                        <div class="info-text" data-reveal="left" >
+                            <h1>
+                                What I Do?
+                            </h1>
+                            <p>
+                                Duis mollis est commodo luctus nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam quis risus eget urna mollis ornare vel. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl.
+                            </p>
+                        </div>
+                        <div class="progresse" data-reveal="right">
+                            <ul>
+                                <li>
+                                    <div class="progresse-info">
+                                        <span>Web Design</span>
+                                        <span>100%</span>
+                                    </div>
+                                    <div class="prog">
+                                        <span data-prog="100%" style="background-color: #c7b1dd;"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="progresse-info">
+                                        <span>Mobile Design</span>
+                                        <span>80%</span>
+                                    </div>
+                                    <div class="prog">
+                                        <span data-prog="80%" style="background-color: #8caeec;"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="progresse-info">
+                                        <span>Development</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="prog">
+                                        <span data-prog="85%" style="background-color: #b0d4c1;"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="progresse-info">
+                                        <span>SEO</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="prog">
+                                        <span data-prog="90%" style="background-color: #e3a6b6;"></span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="boxs-container">
+                            <div class="box" data-reveal="bottom" >
+                                <div class="image">
+                                    <img src="assets/images/icon-1.svg" alt="">
+                                </div>
+                                <h2>
+                                    Web Design
+                                </h2>
+                                <p>
+                                    Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.
+                                </p>
+                            </div>
+                            <div class="box" data-reveal="bottom" >
+                                <div class="image">
+                                    <img src="assets/images/icon-2.svg" alt="">
+                                </div>
+                                <h2>
+                                    Mobile Design
+                                </h2>
+                                <p>
+                                    Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.
+                                </p>
+                            </div>
+                            <div class="box" data-reveal="bottom" >
+                                <div class="image">
+                                    <img src="assets/images/icon-3.svg" alt="">
+                                </div>
+                                <h2>
+                                    Development
+                                </h2>
+                                <p>
+                                    Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.
+                                </p>
+                            </div>
+                            <div class="box" data-reveal="bottom" >
+                                <div class="image">
+                                    <img src="assets/images/icon-4.svg" alt="">
+                                </div>
+                                <h2>
+                                    SEO
+                                </h2>
+                                <p>
+                                    Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus. Cras justo cum sociis natoque magnis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section projects">
+                <div class="container">
+                    <div class="info">
+                        <div class="text">
+                            <h1>Latest Projects</h1>
+                            <p>Check out some of my latest projects with creative ideas.</p>
+                        </div>
+                        <div class="link">
+                            <a href="" class="btn">See All Projects</a>
+                        </div>
+                    </div>
+                    <div class="project" data-revealdelay="0.3s" data-reveal="left" style="background-color: #f5faf7">
+                        <div class="project-content">
+                            <div class="image">
+                                <img src="assets/images/project-2.png" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h3 style="color: #7cb798;">Mobile Design</h3>
+                                <h1>Missio Theme</h1>
+                                <p>Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque id ligula felis.
+                                </p>
+                                <a href="" style="color:#7cb798 ;">See Project <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project" data-revealdelay="0.3s" data-reveal="right" style="background-color: #f1f5fd;">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h3 style="color: #3f78e0;">Web Design</h3>
+                                <h1>Snowlake Theme</h1>
+                                <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus cursus.
+                                </p>
+                                <a href="" style="color:#3f78e0 ;">See Project <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon></a>
+                            </div>
+                            <div class="image">
+                                <img src="assets/images/project-1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project" data-revealdelay="0.3s" data-reveal="right" style="background-color: #fcf4f6;">
+                        <div class="project-content">
+                            <div class="image">
+                                <img src="assets/images/project-4.png" alt="">
+                            </div>
+                            <div class="project-info">
+                                <h3 style="color: #d16b86;">Mobile Design</h3>
+                                <h1>Snowlake Theme</h1>
+                                <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus cursus.
+                                </p>
+                                <a href="" style="color:#d16b86 ;">See Project <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project" data-revealdelay="0.3s" data-reveal="left" style="background-color: #f8f5fb;">
+                        <div class="project-content">
+                            <div class="project-info">
+                                <h3 style="color: #a07cc5;">Web Design</h3>
+                                <h1>Snowlake Theme</h1>
+                                <p>Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula porta felis euismod semper. Fusce dapibus tellus cursus.
+                                </p>
+                                <a href="" style="color:#a07cc5 ;">See Project <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon></a>
+                            </div>
+                            <div class="image">
+                                <img src="assets/images/project-3.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section form" data-revealdelay="0.5s" data-reveal="bottom">
+                <div class="container">
+                    <div class="form-content" style="background-color: #fcf4f6;">
+                        <div class="image">
+                            <img src="assets/images/icon-5.svg" alt="">
+                        </div>
+                        <h1>If you like what you see, let's work together.</h1>
+                        <p>I bring rapid solutions to make the life of my clients easier. Have any questions? Reach out to me from this contact form and I will get back to you shortly.
+                        </p>
+                        <form >
+                            <div>
+                                <input class="fill" type="text" placeholder="Name *">
+                                <input class="fill" type="email" placeholder="Email *">
+                            </div>
+                            <textarea   placeholder="Message *"></textarea>
+                            <input style="cursor:pointer" type="submit" value="Send message" class="btn">
+                        </form>
+
+                    </div>
+                </div>
+            </section>
+        </article>
+    </main>
+    <script src="./assets/js/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
