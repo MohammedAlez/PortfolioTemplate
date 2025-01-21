@@ -9,7 +9,8 @@
   --manatee: hsla(219, 10%, 62%, 1);
   --black-coral: hsla(220, 12%, 43%, 1);
   --cadet-blue-crayola_a20: hsla(222, 23%, 71%, 0.2);
-  --cinnamon-satin: hsla(344, 53%, 62%, 1);
+/*   --cinnamon-satin: hsla(344, 53%, 62%, 1); */
+  --cinnamon-satin: #2980b9;
   --raisin-black: hsla(216, 14%, 14%, 1);
   --raisin-black_a6: hsla(216, 14%, 14%, 0.06);
   --gunmetal: hsla(214, 15%, 21%, 1);
